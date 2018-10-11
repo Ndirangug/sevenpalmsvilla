@@ -1,0 +1,239 @@
+/**all*/
+
+
+/** contact strip */
+.contact-strip{
+    color: gainsboro;
+    background-color: black;
+    text-align: center;
+    padding: 0.7em;
+}
+.contact-strip p{
+    display: inline;
+}
+
+.contact-strip a{
+    color: gainsboro;
+    margin-right: 0.7em;
+    font-size: 1.2em
+}
+
+.contact-strip p span{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.contact-strip p a{
+    font-size: 1em;
+    color: rgb(255, 88, 28);
+}
+
+    /** //TODO: links on hover */ 
+
+.contact-strip a:hover, .contact-strip a:focus{
+  color: rgb(255, 88, 28);
+}
+
+
+/**navbar*/
+.navbar{
+  margin-bottom: 0;
+}
+
+
+.navbar-brand img{
+    display: inline;
+}
+
+.navbar-inverse{
+    border: none;
+    border-radius: 0em;
+    background-color: rgb(59, 94, 3);
+}
+
+.navbar-header a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-header a strong{
+    font-size: 1.5em;
+    margin-left: 0.6em;
+}
+.navbar .collapse li a{
+  color: white;
+}
+.navbar .collapse li a:hover{
+  color: rgb(176, 255, 49);
+  text-decoration: rgb(99, 160, 1);
+  font-weight: 700;
+}
+
+
+/**banner*/
+.slideshow{
+  margin-top: 0;
+  padding: 0;
+}
+
+
+#slide1{
+  background-image: url("../images/bed1.jpg");
+  background-size: cover;
+}
+#slide2{
+  background-image: url("../images/g10.jpg");
+   background-size: cover;
+}
+#slide3{
+  background-image: url("../images/g4.jpg");
+   background-size: cover;
+}
+
+.tint .btn{
+  background-color: rgb(123, 199, 0);
+  border: none;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 0.5em;
+  border: solid 0.1em rgb(123, 199, 0);
+  border-radius: 1em;
+}
+
+.tint .btn:hover{
+  background-color: rgb(148, 238, 2);
+  border: solid 0.5em rgb(47, 77, 0);
+  border-radius: 1em;
+  
+}
+
+.tint{
+  padding: 7em;
+  background-color: rgba(0, 0, 0, 0.755);
+  color: wheat;
+}
+
+.tint h1{
+  color: white;
+  font-style: oblique;
+  font-weight: 600;
+}
+
+.tint h1 > span{
+  color: orangered;
+  
+}
+
+
+.tint .btn{
+  width: 20em;
+  margin: 1em;
+  
+}
+
+.tint p{
+  font-size: 1.1em;
+  margin: 1em;
+  letter-spacing: 1px;
+}
+
+
+
+/**About us*/
+#about{
+  margin-top: 2em;
+}
+
+#about h2{
+  font-weight: 600;
+  color:rgb(99, 160, 1);
+}
+
+/**rooms*/
+
+
+/**footer*/
+#footer{
+  background: url("../images/sample.jpg");
+  background-attachment: fixed;
+  color: white;
+}
+
+#footer .row{
+  padding: 2em, 1em, 1em, 1em;
+  background-color: rgba(0, 0, 0, 0.908);
+  
+}
+
+#footer .row .col-md-5{
+  padding: 1em;
+  border-right: 0.2em white solid;
+}
+#footer .row form{
+ width: 90%;
+ margin: auto;
+ display: block;
+}
+
+#footer .form-group .btn{
+  text-align: right;
+  display: block;
+}
+
+#footer h5 a{
+  color: white;
+}
+
+#footer  h3{
+  font-weight: 600;
+  color: rgb(99, 160, 1);
+}
+
+#footer .btn-primary{
+  background-color: rgb(99, 160, 1);
+  border: none;
+  padding: 0.5em;
+ 
+ 
+}
+
+#footer .btn-primary:hover{
+  background-color: rgb(123, 199, 2);
+  
+  
+}
+
+#footer .col-md-7{
+  padding: 1em;
+}
+
+#footer iframe{
+  margin-top: 2em;
+  width: 90%;
+  height: 25em;
+}
+
+.bottom-strip{
+  color: wheat;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.97);
+}
+
+.bottom-strip a{
+  color: aquamarine;
+
+}
+
+#footer .row{
+  padding: 2em;
+}
+
+#footer .row p, #footer .row h5{
+  margin: 1em;
+  letter-spacing: 1px;
+}
+
+#footer .row h5 a:hover, #footer .row h5 a:focus{
+  color: rgb(255, 88, 28);
+}
+
